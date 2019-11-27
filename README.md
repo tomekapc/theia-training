@@ -12,8 +12,8 @@ In this exercise, you learn:
 - Change `MyLanguageServer.initialize` to allow code actions and execute command requests.
 - Implement `MyLanguageServer.codeAction` to provide to lowercase quick fixes for in uppercase warnings.
 - Implement `MyLanguageServer.executeCommand` to apply the quick fix.
-- Add tests to `MyLanguageServerTest` and execute them with `./gradlew test` in `lsp4j-server` project.
-- Package with `./gradlew shadowJar` in `lsp4j-server` and then `yarn build` in `theia-training` projects.
+- Add tests to `MyLanguageServerTest` and execute them with `./gradlew test` in `file-server` project.
+- Package with `./gradlew shadowJar` in `file-server` and then `yarn build` in `theia-training` projects.
 - Set `languageServerExample.trace.server` as `verbose` to trace JSON-RPC communications to hunt down issues during development.
   - See https://code.visualstudio.com/api/language-extensions/language-server-extension-guide#logging-support-for-language-server
 

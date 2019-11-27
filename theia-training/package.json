@@ -22,7 +22,7 @@
     "clean": "rimraf lib",
     "build": "tsc && yarn run copy-ls",
     "watch": "tsc -w",
-    "copy-ls": "rimraf build && copyfiles -f ../lsp4j-server/build/libs/my-language-server.jar build"
+    "copy-ls": "rimraf build && copyfiles -f ../file-server/build/libs/my-file-server.jar build"
   },
   "theiaExtensions": [
     {
